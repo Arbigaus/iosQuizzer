@@ -12,7 +12,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let quiz = Quiz.questions
+        let startQuiz = Quiz()
+        
+        if quiz.count == 0 {
+            startQuiz.setStartQuiz()
+        }
     }
 
 
