@@ -16,7 +16,7 @@ class Quiz {
     
     public func setStartQuiz(){
         let question1 = Question()
-        question1.question = "Quais filme ganhou 11 Oscars?"
+        question1.question = "Quais filmes ganharam 11 Oscars?"
         question1.rightAnswer = "LOTR e Titanic"
         question1.answer = [ "Fight Club", "Hobbit" ]
         
@@ -30,11 +30,23 @@ class Quiz {
         Quiz.questions.append(question2)
         
         let question3 = Question()
-        question3.question = "Que filme ganhou Oscar de melhor ator em 2019?"
+        question3.question = "Que filme levou o Oscar de melhor ator em 2019?"
         question3.rightAnswer = "Bohemian Rapsody"
         question3.answer = [ "ROMA", "Nasce uma Estrela" ]
         
         Quiz.questions.append(question3)
+        
+        let question4 = Question()
+        question4.question = "Qual a data do DIA D na Segunda Guerra Mundial?"
+        question4.rightAnswer = "06/Jun/1964"
+        question4.answer = [ "06/Jun/1965", "25/Mai/1964" ]
+        
+        Quiz.questions.append(question4)
+    }
+    
+    func removeQuiz(index: Int) {
+        Quiz.questions.remove(at: index)
+        print(Quiz.questions)
     }
 }
 
