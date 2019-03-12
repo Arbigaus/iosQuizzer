@@ -19,7 +19,8 @@
 		D74E393F22275DB90092B4A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D74E393D22275DB90092B4A2 /* LaunchScreen.storyboard */; };
 		D74E394B222761000092B4A2 /* quiz-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D74E394A222761000092B4A2 /* quiz-logo.png */; };
 		D7E91A932233221C008E9AC8 /* FinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E91A922233221C008E9AC8 /* FinishViewController.swift */; };
-		D7E91A9522333AD4008E9AC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7E91A9422333AD4008E9AC8 /* Assets.xcassets */; };
+		D7E91A99223733B2008E9AC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7E91A98223733B2008E9AC8 /* Assets.xcassets */; };
+		D7E91A9B223733FB008E9AC8 /* q-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D7E91A9A223733FB008E9AC8 /* q-logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +38,8 @@
 		D74E394022275DB90092B4A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D74E394A222761000092B4A2 /* quiz-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quiz-logo.png"; sourceTree = "<group>"; };
 		D7E91A922233221C008E9AC8 /* FinishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishViewController.swift; sourceTree = "<group>"; };
-		D7E91A9422333AD4008E9AC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7E91A98223733B2008E9AC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7E91A9A223733FB008E9AC8 /* q-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "q-logo.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +56,7 @@
 		D712A85A2229FF9C00D631FC /* View */ = {
 			isa = PBXGroup;
 			children = (
-				D7E91A9422333AD4008E9AC8 /* Assets.xcassets */,
+				D7E91A98223733B2008E9AC8 /* Assets.xcassets */,
 				D74E3948222760E80092B4A2 /* assets */,
 				D74E393822275DB80092B4A2 /* Main.storyboard */,
 				D74E393D22275DB90092B4A2 /* LaunchScreen.storyboard */,
@@ -123,6 +125,7 @@
 		D74E3949222760F00092B4A2 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				D7E91A9A223733FB008E9AC8 /* q-logo.png */,
 				D74E394A222761000092B4A2 /* quiz-logo.png */,
 			);
 			path = images;
@@ -187,8 +190,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D74E393F22275DB90092B4A2 /* LaunchScreen.storyboard in Resources */,
+				D7E91A9B223733FB008E9AC8 /* q-logo.png in Resources */,
 				D74E393A22275DB80092B4A2 /* Main.storyboard in Resources */,
-				D7E91A9522333AD4008E9AC8 /* Assets.xcassets in Resources */,
+				D7E91A99223733B2008E9AC8 /* Assets.xcassets in Resources */,
 				D74E394B222761000092B4A2 /* quiz-logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
